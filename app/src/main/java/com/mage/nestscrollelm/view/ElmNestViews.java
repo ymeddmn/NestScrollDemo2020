@@ -1,6 +1,8 @@
-package com.mage.nestscrollelm;
+package com.mage.nestscrollelm.view;
 
 import android.view.View;
+
+import com.mage.nestscrollelm.R;
 
 /**
  * author  :mayong

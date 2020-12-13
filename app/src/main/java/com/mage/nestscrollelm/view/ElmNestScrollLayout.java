@@ -1,4 +1,4 @@
-package com.mage.nestscrollelm;
+package com.mage.nestscrollelm.view;
 
 import android.content.Context;
 import android.os.SystemClock;
@@ -13,6 +13,8 @@ import androidx.annotation.Nullable;
 import androidx.core.view.NestedScrollingParent2;
 import androidx.core.view.NestedScrollingParentHelper;
 import androidx.core.widget.NestedScrollView;
+
+import com.mage.nestscrollelm.R;
 
 /**
  * author  :mayong

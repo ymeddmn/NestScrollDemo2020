@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        android:id="@+id/btn_nestscrollparent"
+        android:layout_width="match_parent"
+        android:text="实现自定义NestScrollParent机制"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_behavior"
+        android:layout_width="match_parent"
+        android:text="CoordinatorLayout实现控件跟随滑动"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_nest_behavior"
+        android:layout_width="match_parent"
+        android:text="使用Behavior实现Nest嵌套滑动"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

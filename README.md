@@ -1,2 +1,7 @@
 # NestScrollDemo2020
 2020年做的nestscrolldemo，实现了NestScrollView的滑动嵌套
+
+
+BehaviorNestActivity CustomNestBehavior使用Behavior实现RecyclerView的嵌套滑动
+
+DependOnActivity  DependOnBehavior 实现一个控件跟随另外一个控件滑动的效果

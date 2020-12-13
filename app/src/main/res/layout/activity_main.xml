@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activity.NestScrollParentActivity">
 
-    <com.mage.nestscrollelm.ElmNestScrollLayout
+    <com.mage.nestscrollelm.view.ElmNestScrollLayout
 
         android:id="@+id/child"
         android:layout_width="match_parent"
@@ -138,5 +138,5 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    </com.mage.nestscrollelm.ElmNestScrollLayout>
+    </com.mage.nestscrollelm.view.ElmNestScrollLayout>
 </FrameLayout>
