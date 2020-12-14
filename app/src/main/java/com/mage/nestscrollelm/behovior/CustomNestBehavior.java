@@ -45,11 +45,14 @@ public class CustomNestBehavior extends CoordinatorLayout.Behavior<View> {
 
         if (dy > 0) {//向上
             if (offset > child.getHeight()) {
-                if (child.getTranslationY() < -child.getHeight()) {//如果child的便宜小于-child.height，那么设置便宜量为-child.getHeight()
+                if (child.getTranslationY() < -child.getHeight()) {//如果child的偏移小于-child.height，那么设置便宜量为-child.getHeight()
                     setTransOffset(child, target, -child.getHeight());
                 }
             } else {
                 scroll(child, target, dy);
+                if(transY<=0&&transY>-child.getHeight()){//在child向上滑动的过程中，必须设置消费事件，否则RecyclerView也会跟着向上滑动
+                    consumed[1]=dy;
+                }
             }
         } else {//向下
             if (isHeaderFollowRecycle) {//是否recycle向下滑动，header也就是child马上跟随向下滑动
